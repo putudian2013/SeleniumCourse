@@ -38,7 +38,7 @@ public class BookFlight {
 		driver.findElement(By.id("divpaxinfo")).click();
 		Thread.sleep(2000);
 		int i = 1;
-		while(i<=4) {
+		while(i<=7) {
 			driver.findElement(By.id("hrefIncAdt")).click();
 			i++;
 		}
