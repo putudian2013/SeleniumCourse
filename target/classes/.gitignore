@@ -1,4 +1,11 @@
-/Alert.class
-/EcommerceSite.class
 /META-INF/
-/Wait.class
+/WaitAssignment.class
+/FluentWait.class
+/WebVitals.class
+/FluentWaitExample.class
+/FluentWaitExample$1.class
+/ActionsExample.class
+/BrowserWindowExample.class
+/BrowserWindowAssigment.class
+/FramesExample.class
+/FramesAssignment.class
