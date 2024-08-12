@@ -16,7 +16,7 @@ public class BookFlight {
 		// Select From
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
 		driver.findElement(By.xpath("//a[@value='BLR']")).click();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		// Select Destination
 		driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='MAA']")).click();
