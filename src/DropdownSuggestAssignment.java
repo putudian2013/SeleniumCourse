@@ -14,14 +14,12 @@ public class DropdownSuggestAssignment {
 		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		
-		// Populate keyword Ind and then click Indonesia from auto suggested dropdown
 		driver.findElement(By.id("autocomplete")).sendKeys("Ind");
 		Thread.sleep(3000);
 		List<WebElement> options = driver.findElements(By.cssSelector("li[class='ui-menu-item'] div"));
 		for(WebElement option: options) {
 			Actions actions = new Actions(driver);
 			if(option.getText().equalsIgnoreCase("Indonesia")) {
-//				option.click();
 				actions.moveToElement(option).build().perform();
 				break;
 			}
